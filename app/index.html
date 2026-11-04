@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <base href="/app/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="倒班日历网页版：自定义班次与轮班周期、多班组、班前天气、备忘录与待办。可添加到主屏幕使用。">
+  <meta name="theme-color" content="#47BC67">
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- iOS 添加到主屏幕（PWA） -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="倒班日历">
+  <link rel="apple-touch-icon" href="icons/Icon-180.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icons/favicon.png"/>
+  <link rel="manifest" href="manifest.json">
+
+  <title>倒班日历</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #F7F7F7;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+        "Microsoft YaHei", "Segoe UI", sans-serif;
+    }
+    #splash {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      background: linear-gradient(160deg, #34C566, #25AA49);
+      color: #fff;
+      z-index: 9999;
+      transition: opacity .25s ease;
+    }
+    #splash .logo {
+      width: 92px;
+      height: 92px;
+      border-radius: 24px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, .18);
+    }
+    #splash .logo span {
+      font-size: 40px;
+      font-weight: 700;
+      color: #25AA49;
+      letter-spacing: -2px;
+    }
+    #splash .name { font-size: 20px; font-weight: 600; letter-spacing: 2px; }
+    #splash .hint { font-size: 12px; opacity: .8; }
+    #splash .spinner {
+      width: 22px;
+      height: 22px;
+      border: 2px solid rgba(255, 255, 255, .35);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="splash">
+    <div class="logo"><span>班</span></div>
+    <div class="name">倒班日历</div>
+    <div class="spinner"></div>
+    <div class="hint">正在加载…</div>
+  </div>
+
+  <script>
+    // Flutter 首帧渲染完成后移除启动画面
+    window.addEventListener('flutter-first-frame', function () {
+      var splash = document.getElementById('splash');
+      if (splash) {
+        splash.style.opacity = '0';
+        setTimeout(function () { splash.remove(); }, 260);
+      }
+    });
+  </script>
+
+  <!--
+    flutter_bootstrap.js 由 flutter build 生成；自定义加载配置见：
+    https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="倒班日历">
+  <rect width="64" height="64" rx="15" fill="#47BC67" />
+  <rect x="13" y="16" width="38" height="35" rx="7" fill="#FFFFFF" />
+  <path d="M19 16h26a6 6 0 0 1 6 6v4H13v-4a6 6 0 0 1 6-6z" fill="#25AA49" />
+  <rect x="21" y="11" width="4" height="9" rx="2" fill="#FFFFFF" />
+  <rect x="39" y="11" width="4" height="9" rx="2" fill="#FFFFFF" />
+  <rect x="19" y="31" width="8" height="5" rx="2" fill="#47BC67" />
+  <rect x="29" y="31" width="8" height="5" rx="2" fill="#47BC67" />
+  <rect x="39" y="31" width="6" height="5" rx="2" fill="#47BC67" />
+  <rect x="19" y="39" width="8" height="5" rx="2" fill="#25AA49" />
+  <rect x="29" y="39" width="8" height="5" rx="2" fill="#25AA49" />
+</svg>
