@@ -1,10 +1,10 @@
 {
-  "versionCode": 2014,
-  "versionName": "1.2.8",
-  "apkUrl": "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.2.8/daoban-calendar-1.2.8.apk",
-  "sha256": "497B63EF23E0859626867A1D787C39CE29547EB93C32F723E0DEB0DD4101BED3",
-  "sizeBytes": 28938110,
-  "releasedAt": "2026-11-04T17:13:57.054Z",
-  "notes": "v1.2.8：发布站迁移到 GitHub Pages（免费、无徽章）；定位只保留 GPS + 手动选城市（删除网络/IP定位，不会被自动改城）；反馈表单仍走 Netlify；修复若干问题。",
+  "versionCode": 2015,
+  "versionName": "1.2.9",
+  "apkUrl": "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.2.9/daoban-calendar-1.2.9.apk",
+  "sha256": "1A1E036011D8C24209AF1158D22671A5B772D8A6A57F47275DC4B85F90E4E1CC",
+  "sizeBytes": 28975791,
+  "releasedAt": "2026-11-05T14:06:00.914Z",
+  "notes": "v1.2.9：天气预报改用中国气象局官方数据（7 天预报 + 逐小时，国内更准）；取消天气离线缓存，无网络时直接提示联网（不再显示旧数据）；定位仅 GPS + 手动选城市；农历/闹钟等其余功能不变。",
   "minSupportedVersionCode": 0
 }
