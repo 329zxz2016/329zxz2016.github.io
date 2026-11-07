@@ -1,4 +1,4 @@
-﻿/* 外部脚本：为了启用 CSP 拦截 Netlify 徽章，内联脚本必须有外链 */
+/* 外部脚本：为了启用 CSP 拦截 Netlify 徽章，内联脚本必须有外链 */
 // 动态读取 updates/version.json，渲染版本 / 大小 / 更新说明 / 下载地址。
       // 读取失败时降级到 latest.apk，不影响下载。
       (function () {
