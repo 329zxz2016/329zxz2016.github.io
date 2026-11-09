@@ -2,7 +2,7 @@
 // 动态读取 updates/version.json，渲染版本 / 大小 / 更新说明 / 下载地址。
       // 读取失败时降级到 latest.apk，不影响下载。
       (function () {
-        var FALLBACK_APK = 'https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.3.0/daoban-calendar-1.3.0.apk?v=2016';
+        var FALLBACK_APK = 'https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.0/daoban-calendar-1.4.0.apk?v=2017';
 
         function byId(id) {
           return document.getElementById(id);
