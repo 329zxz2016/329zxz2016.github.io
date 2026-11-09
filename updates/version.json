@@ -1,10 +1,10 @@
 {
-    "versionCode":  2017,
-    "versionName":  "1.4.0",
-    "apkUrl":  "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.0/daoban-calendar-1.4.0.apk?v=2017",
-    "sha256":  "0812D0458AEB7358655A46ED3C98A187DC974D507B340D562A8AF09BDDF7158E",
-    "sizeBytes":  31395459,
-    "releasedAt":  "2026-11-09T21:28:17.490Z",
-    "notes":  "v1.4.0：新增 9 套全局主题（5 套带图：晨雾松林/星河极光/梦莲湖/云海雪峰/峡湾晨光，含真实风景照片；4 套纯色：翡翠青绿/晴空湛蓝/暖阳琥珀/深邃暗夜），换主题所有页面一起变；日历打开默认选中今天；日面板日期更小、班组班次更大更完整；首页/日历一屏显示。",
+    "versionCode":  2018,
+    "versionName":  "1.4.1",
+    "apkUrl":  "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.1/daoban-calendar-1.4.1.apk?v=2018",
+    "sha256":  "C9569D8136109CBE8493D4A990C7757D77F005F2A3DEFBA50B887475C334A3EF",
+    "sizeBytes":  31395463,
+    "releasedAt":  "2026-11-09T22:45:44.352Z",
+    "notes":  "v1.4.1：修复自动更新检查地址（改走 GitHub raw，绕过 GitHub Pages 构建延迟，保证新版本能及时检测到）；其余同 v1.4.0（9 套全局主题、日历默认选中今天、日面板大字号完整班组、首页/日历一屏）。",
     "minSupportedVersionCode":  0
 }
