@@ -1,10 +1,10 @@
 {
-    "versionCode":  2018,
-    "versionName":  "1.4.1",
-    "apkUrl":  "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.1/daoban-calendar-1.4.1.apk?v=2018",
-    "sha256":  "C9569D8136109CBE8493D4A990C7757D77F005F2A3DEFBA50B887475C334A3EF",
+    "versionCode":  2019,
+    "versionName":  "1.4.2",
+    "apkUrl":  "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.2/daoban-calendar-1.4.2.apk?v=2019",
+    "sha256":  "FA80235FF3216AC6D00B3E301C5488EE60B9971C71B7271160FE913D22BE4796",
     "sizeBytes":  31395463,
-    "releasedAt":  "2026-11-09T22:45:44.352Z",
-    "notes":  "v1.4.1：修复自动更新检查地址（改走 GitHub raw，绕过 GitHub Pages 构建延迟，保证新版本能及时检测到）；其余同 v1.4.0（9 套全局主题、日历默认选中今天、日面板大字号完整班组、首页/日历一屏）。",
+    "releasedAt":  "2026-11-10T05:35:28.541Z",
+    "notes":  "v1.4.2：新增「纯白洁净」主题（原版干净白底 + 品牌绿，默认使用，不花哨）；选中日期时显示距离今天的天数（如「100天后」「10天前」，今天显示「今天」），底部日面板与日详情都能看到；其余同 v1.4.1（9 套全局主题、日历默认选中今天、日面板大字号完整班组、首页/日历一屏）。",
     "minSupportedVersionCode":  0
 }
