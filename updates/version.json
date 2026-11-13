@@ -1,10 +1,10 @@
 {
-    "versionCode":  2019,
-    "versionName":  "1.4.2",
-    "apkUrl":  "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.2/daoban-calendar-1.4.2.apk?v=2019",
-    "sha256":  "FA80235FF3216AC6D00B3E301C5488EE60B9971C71B7271160FE913D22BE4796",
-    "sizeBytes":  31395463,
-    "releasedAt":  "2026-11-10T05:35:28.541Z",
-    "notes":  "v1.4.2：新增「纯白洁净」主题（原版干净白底 + 品牌绿，默认使用，不花哨）；选中日期时显示距离今天的天数（如「100天后」「10天前」，今天显示「今天」），底部日面板与日详情都能看到；其余同 v1.4.1（9 套全局主题、日历默认选中今天、日面板大字号完整班组、首页/日历一屏）。",
-    "minSupportedVersionCode":  0
+  "versionCode": 2020,
+  "versionName": "1.4.3",
+  "apkUrl": "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.3/daoban-calendar-1.4.3.apk?v=2020",
+  "sha256": "B89110B3BE91593F5C49A20A8127D4E78BD08B6B319E19730C2D95449B805F52",
+  "sizeBytes": 31329927,
+  "releasedAt": "2026-11-13T15:04:24.193Z",
+  "notes": "v1.4.3：日历页锁定高亮「今天」（主题色底纹与数字胶囊常驻，选中其他日期时选框独立显示，一眼找到今天）；修复首页班次天气与天气详情/气象站数据不一致问题（统一实况温度、当天预报及跨零点/已开跑班次计算，首页同步展示实况）；其余同 v1.4.2。",
+  "minSupportedVersionCode": 0
 }
