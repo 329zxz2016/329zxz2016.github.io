@@ -1,10 +1,10 @@
 {
-  "versionCode": 2021,
-  "versionName": "1.4.4",
-  "apkUrl": "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.4/daoban-calendar-1.4.4.apk?v=2021",
-  "sha256": "0BFA12E7D23A36AD04B02D4727F8A1EF5E3EA169D44AAAA1AF099AD85B42C2B6",
-  "sizeBytes": 31329923,
-  "releasedAt": "2026-11-19T15:44:02.979Z",
-  "notes": "v1.4.4：全界面高级感视觉焕新（底栏磨砂玻璃与主题激活态、纯白浮层立体卡片与轻柔阴影、首页班次三段绸缎渐变卡与柔和休息卡、日历 HSL 极光渐变头图与微光班次胶囊、闹钟暖橙光晕主卡、待办胶囊分段切换与我的页主题联动方案卡）；全部功能与交互不变。",
+  "versionCode": 2022,
+  "versionName": "1.4.5",
+  "apkUrl": "https://ghfast.top/https://github.com/329zxz2016/329zxz2016.github.io/releases/download/v1.4.5/daoban-calendar-1.4.5.apk?v=2022",
+  "sha256": "E53812663E1D32CF75ACFBE28B04DB9D37E82838752067548838D95D0F80953B",
+  "sizeBytes": 31395463,
+  "releasedAt": "2026-11-20T06:02:11.575Z",
+  "notes": "v1.4.5：紧急修复天气预报“一直提示没网络/反复重连半天才能成功”的问题（国内 CMA IPv4 节点证书过期导致握手失败，改为原生端 IPv6 优先+严格证书校验，并在不可用时自动无缝切换 Open-Meteo 备用源，更新检查亦支持镜像自动回退）；同步大幅提升视觉精致度（云雾冷调层次画布、当班实时进度条与磨砂底栏、日历快捷「今天」按钮与立体胶囊、语义色天气图标与左置建议条）。",
   "minSupportedVersionCode": 0
 }
